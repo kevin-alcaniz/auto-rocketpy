@@ -6,7 +6,7 @@ tic;
 clear;clc; close;
 pyenv('ExecutionMode','OutOfProcess');
 rocketpy = py.importlib.import_module('rocketpy');
-sim = py.importlib.import_module('simulador');
+sim = py.importlib.import_module('auto_rocketpy');
 datcom = py.importlib.import_module('datcom');
 rdata = py.importlib.import_module('rocket_data');
 
